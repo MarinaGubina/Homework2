@@ -43,7 +43,7 @@ public class Main {
         int step2 = 500;
         int weightLose250 = goal / step1;
         int weightLose500 = goal / step2;
-        int mediumDay = (weightLose250 + weightLose500) / 2;
+        double mediumDay = (weightLose250 + weightLose500) / (2*1.0);
         System.out.println(" Если спортсмен будет терять в весе 250 грамм в день, то он похудеет на 7 кг за " + weightLose250 + " дней.");
         System.out.println(" Если спортсмен будет терять в весе 500 грамм в день, то он похудеет на 7 кг за " + weightLose500 + " дней.");
         System.out.println(" В среднем для похудения потребуется " + mediumDay + " дней.");
